@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martins Traslochi | Traslochi Professionali a Milano e in tutta Italia</title>
+    <meta name="description" content="Martins Traslochi - Azienda specializzata in traslochi residenziali e commerciali a Milano. Servizi di trasporto, imballaggio, smontaggio, deposito e smaltimento. Italia ed Europa.">
+    <meta name="keywords" content="traslochi milano, traslochi professionali, traslochi casa, traslochi ufficio, deposito oggetti, smaltimento arredamento, imballaggio professionale">
+    <meta name="author" content="Martins Traslochi">
+    <meta property="og:title" content="Martins Traslochi | Traslochi Professionali Milano">
+    <meta property="og:description" content="Azienda specializzata nel trasloco che agisce in Italia e in Europa. Assistenza professionale in ogni fase.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.martinstraslochi.it">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-ring">
+            <div class="loader-ring-inner"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" id="nav-logo">
+                <img src="images/logo.png" alt="Martins Traslochi Logo" class="logo-img">
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#chi-siamo" class="nav-link">Chi Siamo</a></li>
+                <li><a href="#servizi" class="nav-link">Servizi</a></li>
+                <li><a href="#perche-noi" class="nav-link">Perché Noi</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contatti" class="nav-link">Contatti</a></li>
+            </ul>
+            <a href="#contatti" class="nav-cta" id="nav-cta">Preventivo Gratuito</a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <img src="images/hero.png" alt="Martins Traslochi - Traslochi professionali Milano" loading="eager">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Servizio Attivo 24/7
+            </div>
+            <h1 class="hero-title">
+                Il Tuo Trasloco<br>
+                <span class="gradient-text">Senza Pensieri</span>
+            </h1>
+            <p class="hero-subtitle">
+                Azienda specializzata in traslochi residenziali e commerciali.<br>
+                Operiamo in tutta <strong>Italia</strong> e in <strong>Europa</strong> con massima professionalità.
+            </p>
+            <div class="hero-actions">
+                <a href="#contatti" class="btn btn-primary" id="hero-cta-primary">
+                    <span>Richiedi Preventivo</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="tel:+393804341724" class="btn btn-outline" id="hero-cta-call">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                    <span>Chiama Ora</span>
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="15">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Anni di Esperienza</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="2500">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Traslochi Completati</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="100">0</span><span class="stat-suffix">%</span>
+                    <span class="stat-label">Clienti Soddisfatti</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scorri</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Chi Siamo -->
+    <section id="chi-siamo" class="section about">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Chi Siamo</span>
+                <h2 class="section-title">Professionalità e Cura<br>in <span class="gradient-text">Ogni Dettaglio</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-content" data-animate="fade-right">
+                    <p class="about-lead">
+                        <strong>Martins Traslochi</strong> è un'azienda specializzata nel trasloco che opera in Italia e in Europa, con sede a <strong>Milano</strong>.
+                    </p>
+                    <p>
+                        Hai bisogno di traslocare la tua casa, il tuo appartamento o il tuo ufficio? 
+                        O ti serve depositare i tuoi oggetti per un futuro trasloco? Vuoi sbarazzarti 
+                        del tuo vecchio arredamento in modo sicuro, affidabile e nel pieno rispetto dell'ambiente?
+                    </p>
+                    <p>
+                        Per qualsiasi esigenza ti assistiamo con professionalità durante tutte le fasi 
+                        per assicurarti che tutto venga portato a termine nel miglior modo: in una sola volta 
+                        avrai risolto i problemi di smontaggio, imballaggio e trasporto.
+                    </p>
+                    <p>
+                        <em>Ci occupiamo noi di tutto, con la massima cura per ogni dettaglio.</em>
+                    </p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            </div>
+                            <div>
+                                <strong>Sicurezza Garantita</strong>
+                                <p>Materiali di qualità premium per proteggere ogni oggetto</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                            </div>
+                            <div>
+                                <strong>Sempre Disponibili</strong>
+                                <p>Servizio attivo tutti i giorni per le tue esigenze</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <div>
+                                <strong>Italia ed Europa</strong>
+                                <p>Operiamo capillarmente in tutto il territorio</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual" data-animate="fade-left">
+                    <div class="about-image-stack">
+                        <img src="images/elevator.png" alt="Piattaforma elevatrice esterna Martins Traslochi" class="about-img-main" loading="lazy">
+                        <div class="about-experience-badge">
+                            <span class="badge-number">15+</span>
+                            <span class="badge-text">Anni di<br>Esperienza</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servizi -->
+    <section id="servizi" class="section services">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">I Nostri Servizi</span>
+                <h2 class="section-title">Soluzioni Complete per<br>Ogni <span class="gradient-text">Esigenza</span></h2>
+                <p class="section-desc">Offriamo una gamma completa di servizi professionali per traslochi residenziali e commerciali</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-animate="fade-up" data-delay="0">
+                    <div class="service-image">
+                        <img src="images/hero.png" alt="Traslochi Residenziali" loading="lazy">
+                        <div class="service-image-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg>
+                        </div>
+                        <h3>Traslochi Residenziali</h3>
+                        <p>Traslochi di case e appartamenti con cura e attenzione. Gestiamo ogni fase dal sopralluogo alla consegna finale.</p>
+                    </div>
+                </div>
+
+                <div class="service-card" data-animate="fade-up" data-delay="100">
+                    <div class="service-image">
+                        <img src="images/office.png" alt="Traslochi Uffici" loading="lazy">
+                        <div class="service-image-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/><line x1="12" y1="12" x2="12" y2="12"/></svg>
+                        </div>
+                        <h3>Traslochi Uffici</h3>
+                        <p>Trasferimento specializzato per ambienti aziendali. Minimo disservizio, massima efficienza operativa.</p>
+                    </div>
+                </div>
+
+                <div class="service-card" data-animate="fade-up" data-delay="200">
+                    <div class="service-image">
+                        <img src="images/packing.png" alt="Imballaggio Professionale" loading="lazy">
+                        <div class="service-image-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><polyline points="3.27,6.96 12,12.01 20.73,6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+                        </div>
+                        <h3>Imballaggio Professionale</h3>
+                        <p>Utilizziamo materiali di alta qualità per garantire la massima protezione dei tuoi oggetti durante il trasporto.</p>
+                    </div>
+                </div>
+
+                <div class="service-card" data-animate="fade-up" data-delay="300">
+                    <div class="service-image">
+                        <img src="images/storage.png" alt="Deposito e Magazzino" loading="lazy">
+                        <div class="service-image-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="6" width="22" height="15" rx="2"/><path d="M1 10h22"/><path d="M8 6v15"/><path d="M16 6v15"/></svg>
+                        </div>
+                        <h3>Deposito Oggetti</h3>
+                        <p>Servizio di deposito e magazzinaggio sicuro per custodire i tuoi beni durante il periodo di transizione.</p>
+                    </div>
+                </div>
+
+                <div class="service-card" data-animate="fade-up" data-delay="400">
+                    <div class="service-image">
+                        <img src="images/elevator.png" alt="Elevatori Esterni" loading="lazy">
+                        <div class="service-image-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 014-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 01-4 4H3"/></svg>
+                        </div>
+                        <h3>Elevatori Esterni</h3>
+                        <p>Piattaforme elevatrici per traslochi ai piani alti. Soluzione rapida e sicura per mobili di grandi dimensioni.</p>
+                    </div>
+                </div>
+
+                <div class="service-card" data-animate="fade-up" data-delay="500">
+                    <div class="service-image">
+                        <img src="images/disposal.png" alt="Smaltimento Arredamento" loading="lazy">
+                        <div class="service-image-overlay"></div>
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 4H8l-7 8 7 8h13a2 2 0 002-2V6a2 2 0 00-2-2z"/><line x1="18" y1="9" x2="12" y2="15"/><line x1="12" y1="9" x2="18" y2="15"/></svg>
+                        </div>
+                        <h3>Smaltimento Arredamento</h3>
+                        <p>Rimozione ecologica e responsabile del vecchio arredamento nel pieno rispetto dell'ambiente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Perché Noi -->
+    <section id="perche-noi" class="section why-us">
+        <div class="why-us-bg"></div>
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag light">Perché Sceglierci</span>
+                <h2 class="section-title light">La Differenza è nella<br><span class="gradient-text-light">Qualità del Servizio</span></h2>
+            </div>
+            <div class="why-grid">
+                <div class="why-card" data-animate="fade-up" data-delay="0">
+                    <div class="why-number">01</div>
+                    <h3>Sopralluogo Gratuito</h3>
+                    <p>Valutiamo personalmente ogni trasloco con un sopralluogo gratuito e senza impegno per offrirti il miglior preventivo.</p>
+                </div>
+                <div class="why-card" data-animate="fade-up" data-delay="100">
+                    <div class="why-number">02</div>
+                    <h3>Personale Qualificato</h3>
+                    <p>Il nostro team è formato da professionisti esperti nello smontaggio, imballaggio e trasporto di ogni tipo di arredo.</p>
+                </div>
+                <div class="why-card" data-animate="fade-up" data-delay="200">
+                    <div class="why-number">03</div>
+                    <h3>Materiali Premium</h3>
+                    <p>Forniamo materiali di imballaggio di alta qualità per garantire la massima protezione durante ogni fase del trasloco.</p>
+                </div>
+                <div class="why-card" data-animate="fade-up" data-delay="300">
+                    <div class="why-number">04</div>
+                    <h3>Copertura Totale</h3>
+                    <p>Operiamo in tutta Italia e in Europa, garantendo un servizio professionale ovunque tu abbia bisogno.</p>
+                </div>
+                <div class="why-card" data-animate="fade-up" data-delay="400">
+                    <div class="why-number">05</div>
+                    <h3>Prezzi Trasparenti</h3>
+                    <p>Preventivi chiari e dettagliati, senza sorprese. Il prezzo concordato è il prezzo finale.</p>
+                </div>
+                <div class="why-card" data-animate="fade-up" data-delay="500">
+                    <div class="why-number">06</div>
+                    <h3>Assicurazione</h3>
+                    <p>Tutti i nostri traslochi sono assicurati per la tua completa tranquillità e sicurezza.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery / Process -->
+    <section id="gallery" class="section gallery">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Come Lavoriamo</span>
+                <h2 class="section-title">Un Processo <span class="gradient-text">Semplice e Sicuro</span></h2>
+            </div>
+            <div class="process-timeline">
+                <div class="process-step" data-animate="fade-up" data-delay="0">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Contatto e Sopralluogo</h3>
+                        <p>Ci contatti per telefono, email o tramite il modulo. Fissiamo un sopralluogo gratuito per valutare le tue esigenze.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-animate="fade-up" data-delay="150">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Preventivo Personalizzato</h3>
+                        <p>Ti forniamo un preventivo dettagliato e trasparente, su misura per il tuo trasloco specifico.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-animate="fade-up" data-delay="300">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Smontaggio e Imballaggio</h3>
+                        <p>Il nostro team smonta e imballa con cura ogni pezzo utilizzando materiali professionali di alta qualità.</p>
+                    </div>
+                </div>
+                <div class="process-step" data-animate="fade-up" data-delay="450">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Trasporto e Consegna</h3>
+                        <p>Trasportiamo tutto in sicurezza e rimontiamo i mobili nella tua nuova casa o ufficio. Tutto fatto!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section cta-section">
+        <div class="container">
+            <div class="cta-card" data-animate="fade-up">
+                <div class="cta-content">
+                    <h2>Pronto per il Tuo Trasloco?</h2>
+                    <p>Contattaci oggi stesso per un preventivo gratuito e senza impegno. Il tuo trasloco senza stress inizia qui.</p>
+                    <div class="cta-actions">
+                        <a href="tel:+393804341724" class="btn btn-primary btn-large" id="cta-call">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                            <span>380 434 1724</span>
+                        </a>
+                        <a href="mailto:martinstraslochi@libero.it" class="btn btn-outline-light btn-large" id="cta-email">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            <span>Invia Email</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contatti -->
+    <section id="contatti" class="section contact">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Contattaci</span>
+                <h2 class="section-title">Parliamo del Tuo<br><span class="gradient-text">Prossimo Trasloco</span></h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info" data-animate="fade-right">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <div>
+                            <h4>Indirizzo</h4>
+                            <p>Via Monti Sabini 9<br>Milano, Italia</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                        </div>
+                        <div>
+                            <h4>Telefono</h4>
+                            <p><a href="tel:+393804341724">380 434 1724</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:martinstraslochi@libero.it">martinstraslochi@libero.it</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+                        </div>
+                        <div>
+                            <h4>Sito Web</h4>
+                            <p><a href="https://www.martinstraslochi.it" target="_blank">www.martinstraslochi.it</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                        </div>
+                        <div>
+                            <h4>Orari</h4>
+                            <p>Sempre Aperti — 24/7</p>
+                        </div>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="https://www.facebook.com/martins.traslochi" target="_blank" class="social-link" id="social-facebook" aria-label="Facebook">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-wrap" data-animate="fade-left">
+                    <form class="contact-form" id="contact-form">
+                        <h3>Richiedi un Preventivo Gratuito</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nome">Nome *</label>
+                                <input type="text" id="nome" name="nome" required placeholder="Il tuo nome">
+                            </div>
+                            <div class="form-group">
+                                <label for="cognome">Cognome *</label>
+                                <input type="text" id="cognome" name="cognome" required placeholder="Il tuo cognome">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required placeholder="La tua email">
+                            </div>
+                            <div class="form-group">
+                                <label for="telefono">Telefono *</label>
+                                <input type="tel" id="telefono" name="telefono" required placeholder="Il tuo numero">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="servizio">Servizio Richiesto</label>
+                            <select id="servizio" name="servizio">
+                                <option value="">Seleziona un servizio</option>
+                                <option value="trasloco-casa">Trasloco Casa</option>
+                                <option value="trasloco-ufficio">Trasloco Ufficio</option>
+                                <option value="imballaggio">Imballaggio Professionale</option>
+                                <option value="deposito">Deposito Oggetti</option>
+                                <option value="elevatore">Elevatore Esterno</option>
+                                <option value="smaltimento">Smaltimento Arredamento</option>
+                                <option value="altro">Altro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="messaggio">Messaggio</label>
+                            <textarea id="messaggio" name="messaggio" rows="4" placeholder="Descrivi le tue esigenze..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" id="form-submit">
+                            <span>Invia Richiesta</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22,2 15,22 11,13 2,9"/></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map -->
+    <section class="map-section">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2797.8832!2d9.2!3d45.48!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sVia+Monti+Sabini+9%2C+Milano!5e0!3m2!1sit!2sit!4v1"
+            width="100%" 
+            height="400" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Martins Traslochi - Via Monti Sabini 9, Milano">
+        </iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="Martins Traslochi Logo" class="logo-img footer-logo-img">
+                    </div>
+                    <p>Azienda specializzata in traslochi residenziali e commerciali. Operiamo in Italia e in Europa con massima professionalità.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Link Rapidi</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#chi-siamo">Chi Siamo</a></li>
+                        <li><a href="#servizi">Servizi</a></li>
+                        <li><a href="#perche-noi">Perché Noi</a></li>
+                        <li><a href="#contatti">Contatti</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Servizi</h4>
+                    <ul>
+                        <li><a href="#servizi">Traslochi Casa</a></li>
+                        <li><a href="#servizi">Traslochi Ufficio</a></li>
+                        <li><a href="#servizi">Imballaggio</a></li>
+                        <li><a href="#servizi">Deposito Oggetti</a></li>
+                        <li><a href="#servizi">Smaltimento</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contatti</h4>
+                    <p>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        Via Monti Sabini 9, Milano
+                    </p>
+                    <p>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                        <a href="tel:+393804341724">380 434 1724</a>
+                    </p>
+                    <p>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        <a href="mailto:martinstraslochi@libero.it">martinstraslochi@libero.it</a>
+                    </p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Martins Traslochi. Tutti i diritti riservati.</p>
+                <p>Via Monti Sabini 9, Milano — Italia</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/393804341724" class="whatsapp-float" id="whatsapp-float" target="_blank" aria-label="Contattaci su WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
